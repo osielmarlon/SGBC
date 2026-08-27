@@ -1,0 +1,51 @@
+========================================================================
+ GUIA DE INSTALACAO E EXECUCAO NO WINDOWS - SPORTS GARDEN
+========================================================================
+
+Este projeto contem o sistema completo do Catalogo de Servicos e Anuncios do Sports Garden, incluindo frontend em React + Tailwind e servidor backend em Node.js com banco de dados JSON integrado e sincronizacao automatica.
+
+------------------------------------------------------------------------
+REQUISITOS:
+------------------------------------------------------------------------
+1. Node.js (Versao 18 ou superior - Recomendado: 20 LTS)
+   Download gratuito oficial: https://nodejs.org
+
+------------------------------------------------------------------------
+COMO EXECUTAR NO WINDOWS (FORMA MAIS FACIL):
+------------------------------------------------------------------------
+1. Extraia o conteudo deste arquivo ZIP em uma pasta de sua preferencia (ex: C:\Projetos\SportsGarden).
+2. De um duplo clique no arquivo: "INICIAR_NO_WINDOWS.bat"
+3. O script ira instalar as dependencias automaticamente se necessario e abrir o navegador em:
+   http://localhost:3000
+
+------------------------------------------------------------------------
+COMO EXECUTAR MANUALMENTE (PROMPT DE COMANDO / POWERSHELL / TERMINAL):
+------------------------------------------------------------------------
+1. Abra o Prompt de Comando (cmd) ou PowerShell na pasta do projeto:
+2. Instale as dependencias:
+   npm install
+
+3. Inicie em modo de desenvolvimento:
+   npm run dev
+
+4. Acesse no navegador:
+   http://localhost:3000
+
+------------------------------------------------------------------------
+COMO COLOCAR EM PRODUCAO:
+------------------------------------------------------------------------
+1. Gere a versao de producao:
+   npm run build
+
+2. Inicie o servidor em modo producao:
+   npm start
+
+------------------------------------------------------------------------
+ESTRUTURA DO PROJETO E BANCO DE DADOS:
+------------------------------------------------------------------------
+- /data/sportsgarden_database.json : Banco de dados persistente em JSON (contatos, avaliacoes, banners, anuncios).
+- /public/images/                 : Imagens e panfletos de patrocinadores e eventos.
+- /src/                           : Codigo-fonte React + TypeScript do frontend.
+- server.ts                       : Servidor Express com APIs de catalogo, upload, avaliacoes e exportacao.
+
+========================================================================

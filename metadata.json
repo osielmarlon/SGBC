@@ -1,0 +1,6 @@
+{
+  "name": "Guia Fácil - Sports Garden",
+  "description": "Guia Fácil - Sports Garden: Seu Guia de Anúncios no Condomínio. Catálogo de profissionais, serviços e anúncios patrocinados para moradores do Condomínio Sports Garden Batista Campos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
